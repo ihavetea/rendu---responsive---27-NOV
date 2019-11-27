@@ -10,6 +10,7 @@
 .spacebetween{justify-content: space-between;}
 .spacearound{justify-content: space-around;}
 .textcenter{text-align: center;}
+.centering{justify-content: center;align-items: center;}
 
 /* FONT SIZES */
 .medium{font-size:2em;}
@@ -18,39 +19,49 @@
 .largest{font-size: 4em}
 
 
-/* inline block 
-height 100%
-vertical align : center */
-
 /* NAV BAR */
-nav {background-color: #322F39;
-height: 3vh;}
-#hamburger{background-color: black;
-                            /* ======== FIX THIS SHIT ======= */
-min-height: 50px;
-min-width: 50px;}
+nav {
+	background-color:#322F39;
+	height:3vh;
+}
+#hamburger {
+	background-color:black;
+	height:100%;
+	min-width:10%;
+}
 
 /* 2nd section - BLUE */
-#blue {background-color: #119FB7;
-    height: 10vh;
-                            /* ======== FIX THIS SHIT ======= */
-padding: 5%;}
+#blue {
+	background-color:#119FB7;
+	height:10vh;
+	padding:5%;
+}
+
 
 /* 3rd Section - Robin Hood */
-#robin{background-color: #322F39;
-height: 5vh;}
+#robin {
+	background-color:#322F39;
+    height:5vh;
+    align-items: center;
+}
+#robintext{
+    vertical-align: middle;
+}
 
 
-.pink{background-color: #B85F76;
-    min-height: 50%;
-    min-width: 100px;}
+.pink{
+    background-color: #B85F76;
+    height: 100%;
+    width: 15%;
+}
 
 /* 4th Section - BIG ASS ARROW */
 #purple {
-    background-color: #563369;
-    padding: 40%;
-    height: 8vh;
+    background-color:#563369;
+    /* ///////////////////////// FIX THIS SHIT ///////////////////// */
+	height:30vh;
 }
+
 
 /* 5th Section - Bridge */
 #bridge{width: 100%;}
