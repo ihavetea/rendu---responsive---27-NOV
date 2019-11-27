@@ -1,0 +1,67 @@
+/* */
+
+*{margin:0;}
+
+.container {display: flex;}
+.row{flex-direction: row;}
+.column{flex-direction: column;}
+.whitetext {color: white;}
+.spacebetween{justify-content: space-between;}
+.spacearound{justify-content: space-around;}
+.textcenter{text-align: center;}
+
+
+/* NAV BAR */
+nav {
+    background-color: black;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+/* 2nd section - BLUE */
+#blue {background-color: cornflowerblue;
+padding: 5%;}
+
+/* 3rd Section - Robin Hood */
+#robin{background-color: black;
+min-height: 100px;}
+
+#robintext{padding: 5%;}
+
+.pink{background-color: pink;
+    min-height: 50%;
+    min-width: 100px;
+    text-align: center;
+    padding-top: 12%;}
+
+/* 4th Section - BIG ASS ARROW */
+#purple {
+    background-color: purple;
+    padding: 40%;
+    font-size: 30px;;
+}
+
+/* 5th Section - Bridge */
+#bridge{width: 100%;}
+
+/* 6th Section - Lady */
+#lady{width:100%;}
+
+/* 7th Section - Article */
+#text{background-color: grey;}
+
+
+
+
+/* CLEAN THIS SHIT UP */
+body{
+    max-width:320px;
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        width: 320px;
+    }
+
+    
+  }
