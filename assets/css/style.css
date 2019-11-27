@@ -6,39 +6,50 @@
 .row{flex-direction: row;}
 .column{flex-direction: column;}
 .whitetext {color: white;}
+.purpletext {color: #7D7089}
 .spacebetween{justify-content: space-between;}
 .spacearound{justify-content: space-around;}
 .textcenter{text-align: center;}
 
+/* FONT SIZES */
+.medium{font-size:2em;}
+.large{font-size: 2.5em;}
+.larger{font-size: 3em;}
+.largest{font-size: 4em}
+
+
+/* inline block 
+height 100%
+vertical align : center */
 
 /* NAV BAR */
-nav {
-    background-color: black;
-    justify-content: space-between;
-    padding: 5%;
-}
+nav {background-color: #322F39;
+height: 3vh;}
+#hamburger{background-color: black;
+                            /* ======== FIX THIS SHIT ======= */
+min-height: 50px;
+min-width: 50px;}
 
 /* 2nd section - BLUE */
-#blue {background-color: cornflowerblue;
+#blue {background-color: #119FB7;
+    height: 10vh;
+                            /* ======== FIX THIS SHIT ======= */
 padding: 5%;}
 
 /* 3rd Section - Robin Hood */
-#robin{background-color: black;
-min-height: 100px;}
+#robin{background-color: #322F39;
+height: 5vh;}
 
-#robintext{padding: 5%;}
 
-.pink{background-color: pink;
+.pink{background-color: #B85F76;
     min-height: 50%;
-    min-width: 100px;
-    text-align: center;
-    padding-top: 12%;}
+    min-width: 100px;}
 
 /* 4th Section - BIG ASS ARROW */
 #purple {
-    background-color: purple;
+    background-color: #563369;
     padding: 40%;
-    font-size: 30px;;
+    height: 8vh;
 }
 
 /* 5th Section - Bridge */
@@ -48,20 +59,10 @@ min-height: 100px;}
 #lady{width:100%;}
 
 /* 7th Section - Article */
-#text{background-color: grey;}
-
-
+#text{background-color: #EBEBEB;
+padding: 10%;
+height: 20%;}
 
 
 /* CLEAN THIS SHIT UP */
-body{
-    max-width:320px;
-}
 
-@media only screen and (max-width: 320px) {
-    body {
-        width: 320px;
-    }
-
-    
-  }
